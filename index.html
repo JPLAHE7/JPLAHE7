@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build With Stack — Automation & Growth Experts</title>
+  <meta name="description" content="Build With Stack helps businesses automate workflows and scale through SaaS tools, GHL dashboards, and process automation." />
+  <link rel="icon" href="https://buildwithstack.com/bws-logo-512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="https://buildwithstack.com/bws-logo-512.png" alt="Build With Stack" class="logo-img" />
+        <span class="logo-text">Build<span class="accent">WithStack</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#results" class="nav-link">Results</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link cta-link">Get Started</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Automation & Growth Experts
+      </div>
+      <h1 class="hero-title">
+        <span class="reveal-up" style="--delay: 0.1s">Automate.</span>
+        <span class="reveal-up" style="--delay: 0.25s">Scale.</span>
+        <span class="reveal-up gradient-text" style="--delay: 0.4s">Dominate.</span>
+      </h1>
+      <p class="hero-subtitle reveal-up" style="--delay: 0.55s">
+        We help businesses automate workflows and scale through SaaS tools,
+        GHL dashboards, and intelligent process automation — so you can focus
+        on what matters most.
+      </p>
+      <div class="hero-cta reveal-up" style="--delay: 0.7s">
+        <a href="#contact" class="btn btn-primary">
+          <span>Start Automating</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#how-it-works" class="btn btn-ghost">
+          See How It Works
+        </a>
+      </div>
+      <div class="hero-stats reveal-up" style="--delay: 0.85s">
+        <div class="stat">
+          <span class="stat-number" data-target="150">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Automations Built</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Client Retention</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span><span class="stat-suffix">x</span>
+          <span class="stat-label">Avg. ROI</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual reveal-up" style="--delay: 0.5s">
+      <div class="orbit-system">
+        <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-3"><div class="orbit-dot"></div></div>
+        <div class="core-glow"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag reveal-up">What We Do</span>
+        <h2 class="section-title reveal-up" style="--delay: 0.1s">
+          Powerful Services to<br /><span class="gradient-text">Supercharge Your Business</span>
+        </h2>
+        <p class="section-subtitle reveal-up" style="--delay: 0.2s">
+          From workflow automation to full-stack SaaS builds, we deliver solutions that scale.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal-up" style="--delay: 0.1s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Workflow Automation</h3>
+          <p>Eliminate repetitive tasks with intelligent automation flows that connect your tools and save hundreds of hours monthly.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.2s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v2M15 1v2M9 21v2M15 21v2M1 9h2M1 15h2M21 9h2M21 15h2"/></svg>
+          </div>
+          <h3>GHL Dashboards</h3>
+          <p>Custom GoHighLevel dashboards built for your business — CRM pipelines, funnels, automations, and reporting all in one place.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.3s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 0110 10c0 5.52-4.48 10-10 10S2 17.52 2 12"/><path d="M12 2c3 3.5 4 8 4 10"/><path d="M12 2c-3 3.5-4 8-4 10"/><path d="M2 12h20"/></svg>
+          </div>
+          <h3>SaaS Development</h3>
+          <p>We build custom SaaS platforms from scratch — MVPs, full products, integrations, and APIs tailored to your niche.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.4s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg>
+          </div>
+          <h3>Process Optimization</h3>
+          <p>Audit your existing systems, identify bottlenecks, and implement streamlined processes that cut costs and boost output.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.5s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>AI Integration</h3>
+          <p>Embed AI into your workflows — chatbots, lead scoring, content generation, and smart decision-making at scale.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+        <div class="service-card reveal-up" style="--delay: 0.6s">
+          <div class="card-glow"></div>
+          <div class="service-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Growth Consulting</h3>
+          <p>Strategic guidance on scaling your operations, choosing the right tech stack, and building systems that compound growth.</p>
+          <div class="card-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag reveal-up">Our Process</span>
+        <h2 class="section-title reveal-up" style="--delay: 0.1s">
+          From Chaos to<br /><span class="gradient-text">Clockwork in 4 Steps</span>
+        </h2>
+      </div>
+      <div class="steps-timeline">
+        <div class="timeline-line"></div>
+        <div class="step reveal-up" style="--delay: 0.15s">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Discovery Call</h3>
+            <p>We learn your business inside and out — your pain points, goals, and existing systems.</p>
+          </div>
+        </div>
+        <div class="step reveal-up" style="--delay: 0.3s">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Strategy & Blueprint</h3>
+            <p>We map out a custom automation and growth strategy tailored to your needs.</p>
+          </div>
+        </div>
+        <div class="step reveal-up" style="--delay: 0.45s">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Build & Integrate</h3>
+            <p>Our team builds, tests, and deploys your automations and tools — fast.</p>
+          </div>
+        </div>
+        <div class="step reveal-up" style="--delay: 0.6s">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Optimize & Scale</h3>
+            <p>We monitor performance, iterate, and scale your systems as your business grows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results / Social Proof -->
+  <section class="section results" id="results">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag reveal-up">Real Results</span>
+        <h2 class="section-title reveal-up" style="--delay: 0.1s">
+          Numbers That<br /><span class="gradient-text">Speak For Themselves</span>
+        </h2>
+      </div>
+      <div class="results-grid">
+        <div class="result-card reveal-up" style="--delay: 0.1s">
+          <div class="result-number" data-target="500">0</div>
+          <div class="result-suffix">+</div>
+          <div class="result-label">Hours Saved Monthly</div>
+          <div class="result-bar"><div class="result-bar-fill" style="--fill: 90%"></div></div>
+        </div>
+        <div class="result-card reveal-up" style="--delay: 0.2s">
+          <div class="result-number" data-target="2">0</div>
+          <div class="result-suffix">M+</div>
+          <div class="result-label">Revenue Generated</div>
+          <div class="result-bar"><div class="result-bar-fill" style="--fill: 85%"></div></div>
+        </div>
+        <div class="result-card reveal-up" style="--delay: 0.3s">
+          <div class="result-number" data-target="50">0</div>
+          <div class="result-suffix">+</div>
+          <div class="result-label">Businesses Scaled</div>
+          <div class="result-bar"><div class="result-bar-fill" style="--fill: 75%"></div></div>
+        </div>
+        <div class="result-card reveal-up" style="--delay: 0.4s">
+          <div class="result-number" data-target="99">0</div>
+          <div class="result-suffix">%</div>
+          <div class="result-label">Satisfaction Rate</div>
+          <div class="result-bar"><div class="result-bar-fill" style="--fill: 99%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag reveal-up">Testimonials</span>
+        <h2 class="section-title reveal-up" style="--delay: 0.1s">
+          Trusted by<br /><span class="gradient-text">Industry Leaders</span>
+        </h2>
+      </div>
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-card reveal-up" style="--delay: 0.1s">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Build With Stack completely transformed our operations. We went from drowning in manual work to having a fully automated pipeline that runs like clockwork."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JR</div>
+            <div>
+              <strong>James R.</strong>
+              <span>CEO, TechVentures</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal-up" style="--delay: 0.2s">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"The GHL dashboard they built is incredible. Our sales team went from closing 15% to over 40% of leads. The ROI paid for itself in the first month."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div>
+              <strong>Sarah K.</strong>
+              <span>Founder, GrowthLab</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal-up" style="--delay: 0.3s">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"We needed a custom SaaS product built fast. Stack delivered an MVP in weeks that we've scaled to thousands of users. Absolutely world-class team."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MP</div>
+            <div>
+              <strong>Michael P.</strong>
+              <span>CTO, ScaleOps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section" id="contact">
+    <div class="container">
+      <div class="cta-box reveal-up">
+        <div class="cta-bg-effects">
+          <div class="cta-orb cta-orb-1"></div>
+          <div class="cta-orb cta-orb-2"></div>
+        </div>
+        <span class="section-tag">Ready to Scale?</span>
+        <h2 class="cta-title">
+          Let's Build Something<br /><span class="gradient-text">Extraordinary Together</span>
+        </h2>
+        <p class="cta-subtitle">Book a free discovery call and see how automation can transform your business.</p>
+        <div class="cta-buttons">
+          <a href="https://buildwithstack.com" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+            <span>Book a Discovery Call</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="cta-trust">
+          <span>✓ Free Consultation</span>
+          <span>✓ No Commitment</span>
+          <span>✓ Results Guaranteed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <img src="https://buildwithstack.com/bws-logo-512.png" alt="Build With Stack" class="logo-img" />
+            <span class="logo-text">Build<span class="accent">WithStack</span></span>
+          </a>
+          <p>Helping businesses automate workflows and scale through SaaS tools, GHL dashboards, and process automation.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <a href="#services">Workflow Automation</a>
+          <a href="#services">GHL Dashboards</a>
+          <a href="#services">SaaS Development</a>
+          <a href="#services">AI Integration</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Company</h4>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#results">Results</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Build With Stack. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
